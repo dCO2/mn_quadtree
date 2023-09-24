@@ -1,0 +1,17 @@
+#canvas-1 {
+    position: fixed;
+/*    left: 10px;*/
+/*    top: 100px;*/
+    z-index: -1;
+    width: 50%;
+    margin: auto;
+/*    justify-self: center;*/
+}
+
+#canvas-2 {
+/*    left: 10px;*/
+/*    top: 100px;*/
+    width: 50%;
+    margin: auto;
+/*    justify-self: center;*/
+}
