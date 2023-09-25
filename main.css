@@ -1,17 +1,31 @@
+/*:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}*/
+
+
+body {
+    margin-left: 3em;
+    height: 100vh;
+    font-family: Inter;
+/*    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));*/
+}
+
 #canvas-1 {
     position: fixed;
-/*    left: 10px;*/
-/*    top: 100px;*/
     z-index: -1;
     width: 50%;
     margin: auto;
-/*    justify-self: center;*/
 }
 
 #canvas-2 {
-/*    left: 10px;*/
-/*    top: 100px;*/
     width: 50%;
     margin: auto;
-/*    justify-self: center;*/
 }
