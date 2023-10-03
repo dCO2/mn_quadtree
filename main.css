@@ -1,14 +1,36 @@
 /*:root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
+    --background-color: white;
 }*/
 
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background: black;
+    }
+
+    #canvas {
+        border: solid white 1px;
+    }
+
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: white;
+    }
+
+    #canvas {
+        border: solid black 1px;
+    }
+}
 
 body {
+/*    background: --background-color;*/
     margin-left: 1em;
     height: 100vh;
     font-family: Inter;
+/*    max-width: 2000px;*/
+/*    margin: auto;*/
 /*    color: rgb(var(--foreground-rgb));
     background: linear-gradient(
       to bottom,
@@ -18,5 +40,31 @@ body {
     rgb(var(--background-start-rgb));*/
 }
 
+h1, h3 {
+    text-align: center;
+}
+
+main {
+/*    max-width: 1000px;*/
+    margin: auto;
+
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+}
+
 #canvas {
+    align-items: center;
+/*    max-width: 1000px;*/
+    margin: auto;
 }
